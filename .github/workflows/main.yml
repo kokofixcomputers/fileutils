@@ -1,10 +1,10 @@
-# .github/workflows/deploy.yml
 name: Deploy React App to GitHub Pages
 
 on:
   push:
     branches:
-      - main          # change to your default branch if different
+      - main
+  workflow_dispatch: 
 
 permissions:
   contents: read
